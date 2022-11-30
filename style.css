@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-pink-simple-beauty-shop-home-background-picture-image_1055216.jpg);
+    
+}
+#p{
+    color: palevioletred;
+    font-size: x-large;
+    font-weight: bold;
+}
+.container-fluid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    row-gap: 15px;
+    column-gap: 15px;
+}
+img{
+    height: 200px;
+}
+.card{
+    /* display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto; */
+height: 450px;
+width: 200px;
+}
